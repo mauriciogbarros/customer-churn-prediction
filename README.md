@@ -36,7 +36,9 @@ customer-churn-prediction/
 │   ├── features.py
 │   └── model.py
 └── results/
-    └── churn_insights.md
+│   └── churn_insights.md
+└── requirements.txt
+
 
 ## 2. Dataset description
 The analysis uses a **publicly available Telco Customer Churn dataset**, which contains demographic, account, and service-usage information for subscription customers.
@@ -95,9 +97,9 @@ A concise summary of recommendations is available in `results/chrun_insights.md`
 
 ## 6. Technologies used
 - python
-- pandas, numpy
-- matplotlib, seaborn
-- scikit-learn
+- pandas, numpy: data handling and numerical computing
+- matplotlib, seaborn: visualization
+- scikit-learn: machine learning
 - Jupyter Notebook
 
 ## 6. How to run the notebook
