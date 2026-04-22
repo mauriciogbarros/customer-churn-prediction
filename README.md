@@ -31,10 +31,6 @@ customer-churn-prediction/
 │   └── telco_churn.csv
 ├── notebooks/
 │   └── churn_analysis.ipynb
-├── src/
-│   ├── preprocessing.py
-│   ├── features.py
-│   └── model.py
 └── results/
 │   └── churn_insights.md
 └── requirements.txt
@@ -73,7 +69,6 @@ This dataset reflects a realistic business scenario and is suitable for demonstr
 Multiple models are trained and evaluated for comparison:
 - Logistic regression (baseline model)
 - Random forest classifier
-- Gradient boosting (optional)
 
 ### 5. Model interpretation
 - Feature importance analysis
@@ -93,7 +88,7 @@ Based on the analysis:
 - Focus retention efforts on high-risk customer segments identified by the model
 - Monitor early-tenure customers closely to reduce early churn
 
-A concise summary of recommendations is available in `results/chrun_insights.md`
+A concise summary of recommendations is available in `results/churn_insights.md`
 
 ## 6. Technologies used
 - python
